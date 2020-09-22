@@ -43,16 +43,22 @@ const HomeIndex = () => {
           <h2>exhibit history</h2>
           <ul style={{ marginTop: 30 }}>
             <li>
-              <span className="date">2020 January, February & March</span> –
-              Celebration of Fine Art, Scottsdale, AZ
+              <p className="exhibit-item">
+                増元 充 / 幸司　二人展（兄弟展）in Takayama
+              </p>
+              <p className="date">2015 June</p>
             </li>
             <li>
-              <span className="date">2019 April</span> – Invited Artist,
-              Art&Soup, Salt Lake City, UT
+              <p className="exhibit-item">
+                Mitsuru Masumoto Exhibition in Takayama
+              </p>
+              <p className="date">2014 November</p>
             </li>
             <li>
-              <span className="date">2011 October</span>– Statewide Exhibit, Rio
-              Gallery, Salt Lake City, UT
+              <p className="exhibit-item">
+                Mitsuru Masumoto Exhibition in Takayama
+              </p>
+              <p className="date">2013 September</p>
             </li>
           </ul>
         </section>

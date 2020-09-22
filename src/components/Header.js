@@ -13,10 +13,7 @@ const Header = () => (
       <h1>
         <strong>Mitsuru Masumoto</strong>
       </h1>
-      <h1>
-        <br />
-        Painting artist in Hida.
-      </h1>
+      <h1>Painting artist in Hida.</h1>
     </div>
     <Footer />
   </header>

@@ -30,8 +30,7 @@ const GalleryItem = ({
         <img src={thumbnail} />
       </a>
       <span className="title">{title}</span>
-      <br />
-      <span className="image-date">{date}</span>
+      <span className="image-date">Painted at {date}</span>
       <p>{description}</p>
     </article>
   )
