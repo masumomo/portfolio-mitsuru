@@ -10,16 +10,6 @@ const Footer = () => (
           </a>
         </li>
         <li>
-          <a href="#" className="icon fa-github">
-            <span className="label">Github</span>
-          </a>
-        </li>
-        <li>
-          <a href="#" className="icon fa-dribbble">
-            <span className="label">Dribbble</span>
-          </a>
-        </li>
-        <li>
           <a href="#" className="icon fa-envelope-o">
             <span className="label">Email</span>
           </a>

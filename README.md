@@ -1,18 +1,8 @@
-# gatsby-starter-strata
+# Portfolio for Mitsuru Masumoto
 
-**This is a starter for Gatsby.js V2.**
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b561a65a-418e-41c4-a8ec-61644ce4bd54/deploy-status)](https://app.netlify.com/sites/mitsuru-masumoto/deploys)
 
-**The older V1 version of this starter can be found on the v1 branch**
+# memo
 
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-http://gatsby-strata.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/codebushi/gatsby-starter-strata`
-
-Run `gatsby develop` in the terminal to start.
+- Thumbs image should be 370 \* 217
+- Full image should be within 740

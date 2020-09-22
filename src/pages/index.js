@@ -1,12 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Helmet from 'react-helmet'
+
+import AOS from 'aos'
 
 import Gallery from '../components/Gallery'
 import Layout from '../components/layout'
 
 const HomeIndex = () => {
-  const siteTitle = 'Gatsby Starter - Strata'
-  const siteDescription = 'Site description'
+  useEffect(() => {
+    AOS.init()
+  }, [])
+
+  const siteTitle = 'Mitsuru Masumoto - 増元充'
+  const siteDescription =
+    '岐阜県飛騨市の画家。元美術教員で現在も講師として活動中です。'
 
   return (
     <Layout>
@@ -16,54 +23,45 @@ const HomeIndex = () => {
       </Helmet>
 
       <div id="main">
-        <section id="one">
-          <header className="major">
-            <h2>
-              Ipsum lorem dolor aliquam ante commodo
-              <br />
-              magna sed accumsan arcu neque.
-            </h2>
-          </header>
+        <section id="about" data-aos="fade-up">
+          <h2>about me</h2>
           <p>
-            Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc
-            nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae
-            lobortis tortor primis integer massa adipiscing id nisi accumsan
-            pellentesque commodo blandit enim arcu non at amet id arcu magna.
-            Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate
-            lorem neque cubilia.
+            ここに何か説明文を。以下の文章はダミーです。
+            <br />
+            あなたも直接ことにそういう希望院としてもののために飽いたあり。
+            万時間に吹聴者はひょろひょろこうした成就でだろまでであっていでにも吹聴あるないたて、
+            はっきりには忘れるたですますまし。女学校の積んですのはとうとう十一月にもっとですずない。
           </p>
-          <ul className="actions">
-            <li>
-              <a href="#" className="button">
-                Learn More
-              </a>
-            </li>
-          </ul>
         </section>
 
-        <section id="two">
-          <h2>Recent Work</h2>
-
+        <section id="work" data-aos="fade-up">
+          <h2>recent work</h2>
           <Gallery />
+        </section>
 
-          <ul className="actions">
+        <section id="exhibit" data-aos="fade-up">
+          <h2>exhibit history</h2>
+          <ul style={{ marginTop: 30 }}>
             <li>
-              <a href="#" className="button">
-                Full Portfolio
-              </a>
+              <span className="date">2020 January, February & March</span> –
+              Celebration of Fine Art, Scottsdale, AZ
+            </li>
+            <li>
+              <span className="date">2019 April</span> – Invited Artist,
+              Art&Soup, Salt Lake City, UT
+            </li>
+            <li>
+              <span className="date">2011 October</span>– Statewide Exhibit, Rio
+              Gallery, Salt Lake City, UT
             </li>
           </ul>
         </section>
 
-        <section id="three">
-          <h2>Get In Touch</h2>
-          <p>
-            Accumsan pellentesque commodo blandit enim arcu non at amet id arcu
-            magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem
-            vulputate lorem neque lorem ipsum dolor.
-          </p>
+        <section id="contact" data-aos="fade-up">
+          <h2>contact</h2>
+          <p>お問い合わせはこちらから。</p>
           <div className="row">
-            <div className="8u 12u$(small)">
+            <div className="12u 12u$(small)">
               <form method="post" action="#">
                 <div className="row uniform 50%">
                   <div className="6u 12u$(xsmall)">
@@ -93,36 +91,10 @@ const HomeIndex = () => {
                 </div>
                 <ul className="actions" style={{ marginTop: 30 }}>
                   <li>
-                    <input type="submit" value="Send Message" />
+                    <input type="submit" value="送信" />
                   </li>
                 </ul>
               </form>
-            </div>
-            <div className="4u 12u$(small)">
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-home">
-                    <span className="label">Address</span>
-                  </h3>
-                  1234 Somewhere Rd.
-                  <br />
-                  Nashville, TN 00000
-                  <br />
-                  United States
-                </li>
-                <li>
-                  <h3 className="icon fa-mobile">
-                    <span className="label">Phone</span>
-                  </h3>
-                  000-000-0000
-                </li>
-                <li>
-                  <h3 className="icon fa-envelope-o">
-                    <span className="label">Email</span>
-                  </h3>
-                  <a href="#">hello@untitled.tld</a>
-                </li>
-              </ul>
             </div>
           </div>
         </section>

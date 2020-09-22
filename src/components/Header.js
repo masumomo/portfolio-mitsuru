@@ -9,12 +9,13 @@ const Header = () => (
       <a href="#" className="image avatar">
         <img src={avatar} alt="" />
       </a>
+      <h1>増元　充</h1>
       <h1>
-        <strong>I am Strata</strong>, a super simple
+        <strong>Mitsuru Masumoto</strong>
+      </h1>
+      <h1>
         <br />
-        responsive site template freebie
-        <br />
-        crafted by <a href="http://html5up.net">HTML5 UP</a>.
+        Painting artist in Hida.
       </h1>
     </div>
     <Footer />
