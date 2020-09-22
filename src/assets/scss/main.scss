@@ -143,12 +143,7 @@ h2 {
   font-size: 2.4em;
   font-variant-numeric: tabular-nums;
   align-self: flex-start;
-  background-image: linear-gradient(
-    to bottom,
-    #eba28c 2%,
-    #398264 15%,
-    #ffffff
-  );
+  background-image: linear-gradient(to bottom, #eba28c 2%, #245842 15%);
   background-attachment: fixed;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -968,8 +963,8 @@ input[type='button'],
   // background-image: url('../images/bg.jpg');
   background-image: linear-gradient(
       to bottom,
-      rgba(245, 246, 252, 0.2),
-      rgba(128, 86, 48, 0.3)
+      rgba(200, 200, 200, 0.2),
+      rgba(108, 46, 38, 0.75)
     ),
     url('../images/bg.jpg');
   background-position: top left, top left;
